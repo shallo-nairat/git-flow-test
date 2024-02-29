@@ -1,18 +1,13 @@
-#outer container{
-    border: none;
+.container{
+    border: solid black 3px;
     display: grid;
     margin: auto;
-    grid-template-columns: 50% 50%;
-}
-    
-#inner container{
-    display: grid;
-    grid-template-columns: 50% 50% 50%;
-    padding: 30px;
-    margin: 15%;
-    border: solid black;
+    grid-template:50% 50%;
+    padding-right: 15px 20px;
 
 }
+
+
 #heading1{
     font-display: 100px;
     padding: 0;
